@@ -1,0 +1,35 @@
+.bluebar{
+    background-color: #0282F9;
+    
+    #bluebar_cont{
+      list-style: none;
+      color: white;
+      height: 10rem;
+      width: 80%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      li {
+        margin: 0 20px;
+        display: flex;
+        align-items: center;
+      }
+  
+      img {
+        height: 50px;
+      }
+  
+      &::before{
+        content: "";
+      }
+  
+      a {
+        text-decoration: none;
+        color: white;
+        margin-left: 10px;
+      }
+  
+    }
+}

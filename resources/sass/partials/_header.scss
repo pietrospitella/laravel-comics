@@ -1,0 +1,23 @@
+header {
+    padding: 22px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    ul {
+      list-style: none;
+      display: flex;
+      font-weight: 600;
+  
+      li a {
+        padding: 3.8rem 1rem;
+        text-decoration: none;
+        color: black;
+  
+        &:hover, &:active {
+          color: #0282F9;
+          border-bottom: 5px solid #0282F9;
+        }
+      }
+    }
+  }
